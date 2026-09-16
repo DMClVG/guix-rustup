@@ -395,7 +395,11 @@
      thumbv7r-none-eabihf
      thumbv8r-none-eabihf
      x86_64-unknown-linux-gnuasan
+     
+     
      s390x-unknown-none-softfloat
+     x86_64-unknown-linux-gnumsan
+     x86_64-unknown-linux-gnutsan
      )))
 
 (define (%rustc-target-triplets? triplet)
@@ -446,6 +450,7 @@
      lldb
      gcc-x86_64-unknown-linux-gnu
      rustc-codegen-gcc
+     enzyme
      )))
 
 (define (%toolchain-components? component)
