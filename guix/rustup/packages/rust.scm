@@ -386,4 +386,7 @@
 (define-public rust-toolchain-1.93.1
   (rustup "1.93.1"))
 
+(define-public rust-toolchain-1.98.1
+  (rustup "1.98.1"))
+
 (define-public rust-toolchain rust-toolchain-1.93.1)
